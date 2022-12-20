@@ -1,0 +1,37 @@
+[tool.pdm]
+[[tool.pdm.source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pylint",
+    "ipykernel",
+]
+
+
+[project]
+name = "alarms"
+version = "0.1.0"
+description = "Set alarms that will open a youtube video when the time comes"
+authors = [
+    {name = "robmux", email = "robinsonmu232@gmail.com"},
+]
+
+dependencies = [
+    "typer",
+    "rich",
+    "shellingham",
+    "typer-cli",
+    "pytube>=12.1.2",
+    "moviepy>=1.0.3",
+]
+
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-pep517>=1.0.0"]
+build-backend = "pdm.pep517.api"

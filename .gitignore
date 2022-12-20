@@ -376,6 +376,7 @@ $RECYCLE.BIN/
 
 # End of https://www.toptal.com/developers/gitignore/api/python,linux,windows,macos,intellij,visualstudiocode
 
-# Jetbrains run directory
-
+# IDES
+.idea
 .run
+.vscode
