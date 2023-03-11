@@ -5,15 +5,15 @@ Program alarms that will open a url like a YouTube video so you wake up.
 
 # Develop
 
-1 Install pipenv
+1 Install [pdm](https://pdm.fming.dev/latest/) and run
 
 ```Shell
-sudo dnf install pipenv
+pdm install
 ```
 
-2 Install dependencies
+2 Run the cli
 
 ```Shell
-pipenv install
+pdm run python main.py
 
 3 Activate the shell

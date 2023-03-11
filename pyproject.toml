@@ -8,6 +8,7 @@ name = "pypi"
 dev = [
     "pylint",
     "ipykernel",
+    "jupyterthemes>=0.20.0",
 ]
 
 
